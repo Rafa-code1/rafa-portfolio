@@ -3,250 +3,729 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+
+    <title>Rafa Sanyour | IT Support & Frontend Developer</title>
+
+    <meta
+        name="description"
+        content="Rafa Sanyour - Computer Science graduate with experience in IT Support and a growing focus on Frontend Development and Cybersecurity."
+    >
+
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/eed4a29fc4.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<div id="header">
-   <div class="container">
-    <nav>
-        <img src="images/Rafa.png" class="logo">
-        <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-        </ul>
-        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-    </nav>
-    <div class="header-text">
-        <p>Front-End Developer</p>
-        <h1>Hi, I'm <span>Rafa</span><br> Sanyour From Syria</h1>
-    </div>
-   </div>
-</div>
-<!-----------------about-------------------->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/R1.jpeg">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>Hello, I'm Rafa Sanyour, a Junior Front-End Developer driven by a passion for innovation and 
-                    a thirst for meaningful change. With a strategic mindset and keen attention to detail, 
-                    I thrive on crafting impactful solutions that push boundaries and elevate user experiences.
-                    In my recent role as an Administrative Assistant at Dar Aliman, I spearheaded IT support, 
-                    resolving complex technical issues and enhancing team productivity. Despite the challenge of 
-                    limited resources, I successfully implemented efficient solutions that improved our operations. 
-                    Additionally, my volunteer work with Coursera and Theirworld demonstrates my commitment to 
-                    leveraging technology for educational advancement and global impact.</p>
-                
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('Education')">Education</p>
-                    <p class="tab-links" onclick="opentab('Volunteer')">Volunteer</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Team Management</span><br>Effective team coordination and goal achievement.</li>
-                        <li><span>Leadership</span><br>Initiative-taking and team guidance towards success.</li>
-                        <li><span>Teamwork</span><br>Excellent collaboration and problem-solving skills.</li>
-                        <li><span>Attention to Detail</span><br>Meticulous approach ensuring quality and accuracy.</li>
-                        <li><span>Problem Solving</span><br>Analytical thinker adept at innovative solutions.</li>
-                        <li><span>IT Support</span><br>Hardware and software troubleshooting proficiency.</li>
-                        <li><span>Front-End Development</span><br>Basic understanding of HTML, CSS, and JavaScript.</li>
-                </div>
-                <div class="tab-contents" id="Experience">
-                    <ul>
-                        <li><span>Project Assistant</span><br>2024-present<br>Assisted in managing projects, coordinating resources, and providing administrative support.</li>
-                        <li><span>Customer Service Representative</span><br>2022-2023<br>Interacted with customers to address inquiries and provide support, demonstrating strong communication skills.</li>
-                        <li><span>Technical Support Specialist</span><br>2022-2023<br>Provided technical assistance and troubleshooting for hardware and software issues, documenting solutions for knowledge sharing.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Education">
-                    <ul>
-                        <li><span>Bachelor of Science in Computer Science</span><br>Expected Graduation: November 2024<br>GPA: 3.7</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Volunteer">
-                    <ul>
-                        <li><span>Translator (English/Arabic)</span><br>Organization: Coursera Global Translator Community (GTC)<br>October 2021 - November 2021<br>Contributed over 15,000 words of high-quality translations for Coursera courses, enhancing accessibility for Arabic-speaking learners worldwide.</li>
-                        <li><span>Volunteer Educator</span><br>Organization: Theirworld<br>December 2021 - December 2023<br>Supported educational initiatives for global education and youth empowerment, collaborating on projects and advocacy activities.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-----------------------services--------->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Front-End Developer</h2>
-                <p>Transforming visions into captivating digital experiences with elegant design solutions and seamless user interfaces.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
-            <div>
-                <i class="fa-solid fa-server"></i>
-                <h2>IT Support Services</h2>
-                <p>Providing technical assistance and troubleshooting for hardware and software issues, leveraging expertise as a Google IT Support Specialist.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
-            <div>
-                <i class="fa-solid fa-bars-progress"></i>
-                <h2>Project Management</h2>
-                <p>Assisting clients in managing and coordinating projects, ensuring timely completion and adherence to specifications.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
-            <div>
-                <i class="fa-solid fa-headset"></i>
-                <h2>Customer Service Solutions</h2>
-                <p>Offering customer service solutions, including handling inquiries, resolving issues, and providing support in a professional manner.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
-            <div>
-                <i class="fa-solid fa-gears"></i>
-                <h2>Technical Support</h2>
-                <p>Providing technical assistance and troubleshooting for hardware and software issues, utilizing diagnostic tools and troubleshooting techniques.</p>
-                <a href="#">Learn more</a>
-            </div>
-            
-            <div>
-                <i class="fa-solid fa-chalkboard-user"></i>
-                <h2>Training and Workshops</h2>
-                <p>Conducting training sessions or workshops on IT support, front-end development, or related topics.</p>
-                <a href="#">Learn more</a>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!------------portfolio--------------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/homescreen.png">
-                <div class="layer">
-                    <h3>Coding Projects</h3>
-                    <p>Explore my coding projects demonstrating my skills 
-                        in beginner-level front-end and back-end development.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/Cybersecurity  logo  (1).png">
-                <div class="layer">
-                    <h3>Cybersecurity Basics</h3>
-                    <p>Explore foundational concepts of cybersecurity and learn how to protect against online threats and vulnerabilities.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/wallpaper programming.png">
-                <div class="layer">
-                    <h3>Code Development</h3>
-                    <p>Discover my ability to develop beginner-level clean and efficient code for various projects and applications.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#"class="btn">See more</a>
-    </div>
-</div>
-<!--------------contact---------->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p> <i class="fa-solid fa-paper-plane"></i>rafah.sanyour@outlook.com</p>
-                <p> <i class="fa-solid fa-square-phone"></i>0096170605812</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/rafa-sanyour"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/rafah0930"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/r.a.f.a.97?igsh=Yjc3eG5qMzg1cXlr"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                <a href="images/Rafa CV.docx" class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email"  required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright © Rafa<i class="fa-solid fa-heart"></i> </p>
-    </div>
-</div>
-
-
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-
-
-    }
-
-</script>
-<script>
-    var sidemenu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby6AIBchRfV2qOBGdoRpegDxI96Qxwe8BwkpvVMewXBpu6N8pcogr5WYWvNvsC3rMTwRg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg =document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-        })
-        form.reset()
-        .catch(error => console.error('Error!', error.message))
-    })
+    <!-- Font Awesome -->
+    <script
+        src="https://kit.fontawesome.com/eed4a29fc4.js"
+        crossorigin="anonymous">
     </script>
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER / HOME
+========================= -->
+
+<header id="header">
+
+    <div class="container">
+
+        <nav>
+
+            <a href="#header" class="logo-link">
+                <img src="images/Rafa.png" class="logo" alt="Rafa Sanyour">
+            </a>
+
+            <ul id="sidemenu">
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <li class="close-menu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </li>
+
+            </ul>
+
+            <i
+                class="fa-solid fa-bars menu-icon"
+                onclick="openmenu()">
+            </i>
+
+        </nav>
+
+
+        <div class="header-text">
+
+            <p>IT Support • Frontend Development • Cybersecurity</p>
+
+            <h1>
+                Hi, I'm <span>Rafa</span><br>
+                Sanyour
+            </h1>
+
+            <p class="hero-description">
+                Computer Science graduate with experience in IT support
+                and a growing focus on frontend development and cybersecurity.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#portfolio" class="btn primary-btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section id="about">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="about-col-1">
+
+                <img
+                    src="images/R1.jpeg"
+                    alt="Rafa Sanyour"
+                >
+
+            </div>
+
+
+            <div class="about-col-2">
+
+                <p class="section-label">ABOUT ME</p>
+
+                <h2 class="sub-title">
+                    Building my path from IT Support to Cybersecurity.
+                </h2>
+
+                <p class="about-text">
+                    I'm Rafa Sanyour, a Computer Science graduate with
+                    professional experience in technical support and
+                    administrative operations.
+                </p>
+
+                <p class="about-text">
+                    My technical support experience introduced me to
+                    troubleshooting hardware and software issues, Windows
+                    environments, printers and peripherals, incident
+                    documentation, request prioritization, and user support.
+                </p>
+
+                <p class="about-text">
+                    Alongside my IT background, I'm developing my skills in
+                    frontend development and building practical projects with
+                    HTML, CSS, JavaScript, Git, and GitHub. I'm also interested
+                    in continuing my development toward cybersecurity.
+                </p>
+
+
+                <div class="tab-titles">
+
+                    <p
+                        class="tab-links active-link"
+                        onclick="opentab('skills-tab', this)">
+                        Skills
+                    </p>
+
+                    <p
+                        class="tab-links"
+                        onclick="opentab('experience-tab', this)">
+                        Experience
+                    </p>
+
+                    <p
+                        class="tab-links"
+                        onclick="opentab('education-tab', this)">
+                        Education
+                    </p>
+
+                </div>
+
+
+                <!-- Skills Tab -->
+
+                <div
+                    class="tab-contents active-tab"
+                    id="skills-tab">
+
+                    <ul>
+
+                        <li>
+                            <span>IT Support</span><br>
+                            Hardware and software troubleshooting, user support,
+                            incident handling, and technical documentation.
+                        </li>
+
+                        <li>
+                            <span>Frontend Development</span><br>
+                            HTML5, CSS3, JavaScript, responsive web interfaces,
+                            and DOM manipulation.
+                        </li>
+
+                        <li>
+                            <span>Technical Troubleshooting</span><br>
+                            Problem identification, troubleshooting, and
+                            practical technical solutions.
+                        </li>
+
+                        <li>
+                            <span>Git & GitHub</span><br>
+                            Version control, repositories, commits, and project
+                            management.
+                        </li>
+
+                        <li>
+                            <span>Problem Solving</span><br>
+                            Analytical thinking and structured approach to
+                            technical problems.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Experience Tab -->
+
+                <div
+                    class="tab-contents"
+                    id="experience-tab">
+
+                    <ul>
+
+                        <li>
+                            <span>Technical Support Specialist</span><br>
+                            Dar Al-Iman | Nov 2021 – Oct 2023<br>
+                            Provided first-line technical support for hardware,
+                            software, Windows systems, printers, and peripherals.
+                            Documented incidents, prioritized requests, and
+                            supported users with technical issues.
+                        </li>
+
+                        <li>
+                            <span>Administrative Assistant</span><br>
+                            Dar Al-Iman | Nov 2014 – Aug 2017<br>
+                            Managed documentation, scheduling, meetings,
+                            correspondence, reports, records, and daily
+                            administrative operations.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Education Tab -->
+
+                <div
+                    class="tab-contents"
+                    id="education-tab">
+
+                    <ul>
+
+                        <li>
+                            <span>Bachelor of Science in Computer Science</span><br>
+                            University of the People<br>
+                            Completed
+                        </li>
+
+                        <li>
+                            <span>Google IT Support Professional Certificate</span><br>
+                            Coursera / Google
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section id="skills">
+
+    <div class="container">
+
+        <p class="section-label">WHAT I WORK WITH</p>
+
+        <h2 class="sub-title">
+            Skills & Technologies
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML5</h3>
+
+                <p>
+                    Semantic structure and accessible web page layouts.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS3</h3>
+
+                <p>
+                    Responsive layouts, styling, animations, and UI design.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    DOM manipulation, forms, events, filtering, and dynamic UI.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <h3>IT Support</h3>
+
+                <p>
+                    Hardware, software, Windows, peripherals, and user support.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-git-alt"></i>
+
+                <h3>Git</h3>
+
+                <p>
+                    Version control, commits, branches, and project history.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Repository management and publishing development projects.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section id="experience">
+
+    <div class="container">
+
+        <p class="section-label">MY BACKGROUND</p>
+
+        <h2 class="sub-title">
+            Professional Experience
+        </h2>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Nov 2021 – Oct 2023
+                    </span>
+
+                    <h3>
+                        Technical Support Specialist
+                    </h3>
+
+                    <h4>
+                        Dar Al-Iman
+                    </h4>
+
+                    <p>
+                        Provided first-line technical support for hardware and
+                        software issues, Windows systems, printers and
+                        peripherals. Handled technical requests, documented
+                        incidents and solutions, prioritized support needs,
+                        and assisted users with troubleshooting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Nov 2014 – Aug 2017
+                    </span>
+
+                    <h3>
+                        Administrative Assistant
+                    </h3>
+
+                    <h4>
+                        Dar Al-Iman
+                    </h4>
+
+                    <p>
+                        Supported daily administrative operations through
+                        document preparation, scheduling, meeting coordination,
+                        reports, correspondence, records management, and
+                        communication with internal and external contacts.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
+
+<section id="portfolio">
+
+    <div class="container">
+
+        <p class="section-label">FEATURED PROJECT</p>
+
+        <h2 class="sub-title">
+            My Work
+        </h2>
+
+
+        <div class="work-list">
+
+            <!-- Project 1 -->
+
+            <div class="work">
+
+                <img
+                    src="images/homescreen.png"
+                    alt="IT Support Ticket Dashboard"
+                >
+
+                <div class="layer">
+
+                    <div>
+
+                        <span class="project-type">
+                            Frontend Project
+                        </span>
+
+                        <h3>
+                            IT Support Ticket Dashboard
+                        </h3>
+
+                        <p>
+                            A responsive frontend dashboard that simulates
+                            a real-world IT support workflow. Users can create,
+                            search, filter, update, assign, and manage support
+                            tickets while monitoring dynamic statistics and
+                            reports.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/Rafa-code1/it-support-dashboard"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            View on GitHub
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+
+            <div class="work placeholder-project">
+
+                <div class="placeholder-content">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <span class="project-type">
+                        Coming Soon
+                    </span>
+
+                    <h3>
+                        More Projects
+                    </h3>
+
+                    <p>
+                        More frontend and cybersecurity projects will be
+                        added as I continue building my portfolio.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+
+            <div class="work placeholder-project">
+
+                <div class="placeholder-content">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <span class="project-type">
+                        Future Project
+                    </span>
+
+                    <h3>
+                        Cybersecurity Project
+                    </h3>
+
+                    <p>
+                        A future project focused on practical cybersecurity
+                        concepts and security fundamentals.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="contact-left">
+
+                <p class="section-label">GET IN TOUCH</p>
+
+                <h2 class="sub-title">
+                    Let's connect.
+                </h2>
+
+                <p class="contact-description">
+                    I'm open to opportunities related to IT Support,
+                    Frontend Development, and entry-level technology roles.
+                </p>
+
+
+                <p>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    rafasanyour@outlook.com
+                </p>
+
+
+                <div class="social-icons">
+
+                    <a
+                        href="https://github.com/Rafa-code1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/rafa-sanyour"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/r.a.f.a.97"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="images/Rafa CV.docx"
+                    class="btn btn2"
+                    download>
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-right">
+
+                <form
+                    id="contact-form"
+                    action="mailto:rafasanyour@outlook.com"
+                    method="post"
+                    enctype="text/plain">
+
+                    <input
+                        type="text"
+                        name="Name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        name="Email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <textarea
+                        name="Message"
+                        rows="7"
+                        placeholder="Your Message"
+                        required>
+                    </textarea>
+
+                    <button
+                        type="submit"
+                        class="btn btn2">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+                <p id="form-note">
+                    Your email application will open to send the message.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Rafa Sanyour. Built with HTML, CSS & JavaScript.
+        </p>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
