@@ -43,3 +43,44 @@ rafa-portfolio/
 ├── script.js
 ├── CNAME
 └── README.md
+
+What I Practiced
+
+Through this project, I practiced:
+
+Building structured and semantic HTML pages
+Creating responsive layouts with CSS
+Working with JavaScript and DOM manipulation
+Building interactive user interface components
+Organizing a frontend project
+Using Git for version control
+Managing a project with GitHub
+Preparing a portfolio for professional use
+Featured Project
+IT Support Ticket Dashboard
+
+A responsive IT support ticket management dashboard built with HTML, CSS, and JavaScript.
+
+The project simulates a real-world IT support workflow and includes:
+
+Ticket creation
+Ticket search and filtering
+Technician assignment
+Status updates
+Ticket details
+Ticket deletion
+Dynamic statistics
+User ticket tracking
+Support reports
+
+Repository:
+https://github.com/Rafa-code1/it-support-dashboard
+
+Author
+
+Rafa Sanyour
+
+Computer Science Graduate | IT Support | Frontend Development | Cybersecurity
+
+GitHub: https://github.com/Rafa-code1
+LinkedIn: https://www.linkedin.com/in/rafa-sanyour/
